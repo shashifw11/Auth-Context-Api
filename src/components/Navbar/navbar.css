@@ -1,0 +1,31 @@
+.nav{
+    width : 100% ; 
+    padding : 18px ; 
+    
+    background-color: black;
+    color : white ; 
+    font-weight: bolder ;
+
+
+}
+
+.ul{
+    display : flex ; 
+    flex-direction: row ; 
+    column-gap: 50px ; 
+    list-style: none;
+
+}
+   
+.ul>li{
+    cursor: pointer;
+}
+
+.nav{
+    display: flex;
+    justify-content :space-between ;  
+}
+
+.btn {
+        margin-right : 100px ; 
+}
